@@ -117,6 +117,12 @@ SERVER_HOST: my-server
 
 گزینهٔ `depends_on` نیز مشخص می‌کند که Container مربوط به Server قبل از Client شروع به اجرا کند.
 
+
+## Kanban
+<img width="3840" height="729" alt="image" src="https://github.com/user-attachments/assets/6057f92a-8cda-491f-9b24-20715ef6444b" />
+
+
+
 ## مراحل پیاده‌سازی
 
 در مرحلهٔ اول برنامهٔ Server داده‌شده بدون تغییر منطق آن در فایل `server.py` قرار گرفت. سپس `Dockerfile.server` ساخته شد و Image مربوط به Server با Image پایهٔ `python:3.10-alpine` Build شد. اجرای مستقل Server بررسی شد و مشخص شد برنامه در داخل Container روی پورت 80 به درستی پاسخ می‌دهد.
